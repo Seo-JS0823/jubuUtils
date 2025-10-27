@@ -136,21 +136,3 @@ function $Tag(tag) {
     }
   }
 }
-
-const test = getId('test');
-
-$Tag(test)
-.on('click', () => {
-  console.log(test);
-})
-.addClass('orange')
-.blockBubble();
-
-const bub = getId('bub');
-
-$Tag(bub)
-.on('click', () => {
-  console.log(bub);
-})
-.addClass('orange')
-.blockBubble();
